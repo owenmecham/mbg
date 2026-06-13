@@ -1,0 +1,211 @@
+{
+  "name": "mbg",
+  "owner": {
+    "name": "MyBusinessGenie"
+  },
+  "description": "MyBusinessGenie plugin marketplace. Premium AI skills for real estate agents and investors, small business operators, content creators, and operations teams.",
+  "plugins": [
+    {
+      "name": "real-estate-agent-pro",
+      "source": "./plugins/real-estate-agent-pro",
+      "description": "Complete AI toolkit for real estate agents — listing launch, CMA, transaction coordination, buyer consultation, showing management, disclosure compliance, creative finance analysis, referral tracking, 1031 exchange tracking, market reports, past client nurture, closing gift and review requests, GCI production planning, objection roleplay coaching, and more. Every skill saves preferences to memory so your name, brokerage, and market settings are always pre-loaded.",
+      "version": "1.2.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "real-estate", "agent", "listing", "buyer", "transaction", "cma",
+        "disclosure", "creative-finance", "referral", "1031-exchange",
+        "open-house", "showing", "market-report", "past-client",
+        "closing-gift", "gci", "production-planner", "objection-coach"
+      ],
+      "category": "real-estate"
+    },
+    {
+      "name": "bizops",
+      "source": "./plugins/bizops",
+      "description": "A complete business operations toolkit for small business owners. Covers daily briefings, client onboarding, invoicing, pipeline management, hiring, financial snapshots, SOPs, travel planning, and more. Works across all industries.",
+      "version": "1.1.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "operations", "productivity", "CRM", "finance", "hiring", "travel",
+        "SOPs", "small business", "business operations"
+      ],
+      "category": "business-ops"
+    },
+    {
+      "name": "reinvestor-toolbox",
+      "source": "./plugins/reinvestor-toolbox",
+      "description": "Complete real estate investor acquisition toolkit — from first look to signed offer. Covers property research, deal analysis, rental strategy comparison, financial modeling, seller outreach, deal marketing, offer/LOI generation, and contract-to-close due diligence tracking. All skills share a common investor preferences profile so every analysis is calibrated to your buy box from the first run.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "real-estate", "investing", "deal-analysis", "rental", "cash-flow",
+        "cap-rate", "brrrr", "seller-finance", "subject-to",
+        "creative-finance", "due-diligence", "wholesale", "flip",
+        "property-research"
+      ],
+      "category": "real-estate"
+    },
+    {
+      "name": "reinvestor-profile",
+      "source": "./plugins/reinvestor-profile",
+      "description": "Real estate investor identity and network tools — define your buy box, define your lending criteria, and manage a buyer network. Generates professional shareable infographics for Instagram, LinkedIn, and Facebook. Saves all profiles to your persistent brain so the REInvestor Toolbox can score every new deal against your personal criteria automatically.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "buy-box", "lending-box", "investor-profile", "network",
+        "creative-finance", "gator", "private-money", "subject-to",
+        "seller-finance", "infographic", "wholesaler", "buyer-network"
+      ],
+      "category": "real-estate"
+    },
+    {
+      "name": "rv-park-tools",
+      "source": "./plugins/rv-park-tools",
+      "description": "RV park acquisition toolkit — pre-LOI quick screener and post-contract comprehensive underwriter. Covers deal analysis, creative finance stacking, LOI drafting, and full due diligence through Go/No-Go verdict. Saves and reads client investment preferences from memory so every analysis is calibrated to your buy box.",
+      "version": "1.0.1",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "rv-park", "campground", "outdoor-hospitality", "real-estate",
+        "underwriting", "deal-analysis", "creative-finance", "due-diligence"
+      ],
+      "category": "real-estate"
+    },
+    {
+      "name": "multifamily-tools",
+      "source": "./plugins/multifamily-tools",
+      "description": "Multifamily acquisition toolkit — pre-LOI quick screener and post-contract comprehensive underwriter for apartment deals. Covers rent roll reality checks, creative finance stacking, LOI drafting, Schedule E cross-verification, and full due diligence through Go/No-Go verdict. Saves and reads client investment preferences from memory so every analysis is calibrated to your buy box.",
+      "version": "1.0.1",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "multifamily", "apartment", "real-estate", "underwriting",
+        "deal-analysis", "creative-finance", "due-diligence", "rent-roll"
+      ],
+      "category": "real-estate"
+    },
+    {
+      "name": "ai-agents",
+      "source": "./plugins/ai-agents",
+      "description": "Build, activate, and manage a complete AI agent team for your business. Design your org chart, activate agents one at a time with the right tools and schedules, set up automated reporting, and build custom skills when off-the-shelf options don't fit. Includes guided tool selection — recommends MBG plugins, native connectors, and Composio so every agent can work autonomously without you needing to be present.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "ai-agents", "agent-team", "automation", "org-chart",
+        "agent-activator", "composio", "scheduled-tasks", "skill-builder",
+        "agent-designer", "agent-reporter"
+      ],
+      "category": "ai-platform"
+    },
+    {
+      "name": "mbg-foundation",
+      "source": "./plugins/mbg-foundation",
+      "description": "The starting point for every MBG client. Three guided skills that help you get clear on where you're headed, map your business for AI automation, and design your AI agent team. Run them in order for the best experience — or jump to what you need, when you need it.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "foundation", "onboarding", "setup", "getting-started", "goals",
+        "goal-hierarchy", "business-blueprint", "agent-designer", "ai-team",
+        "strategy", "clarity"
+      ],
+      "category": "ai-platform"
+    },
+    {
+      "name": "mbg-admin",
+      "source": "./plugins/mbg-admin",
+      "description": "Ongoing system health for MBG clients. Three admin skills that keep your goals front of mind, your AI platform up to date, and your results visible on your cloud dashboard. Goals Pulse is a 5–10 minute weekly alignment check-in. Update Blueprint checks for and applies platform updates. Publish Dashboard sends any skill output to your mybusinessgenie.ai dashboard.",
+      "version": "1.1.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "admin", "maintenance", "goals-pulse", "update-blueprint",
+        "publish-dashboard", "check-in", "weekly-review", "goal-alignment",
+        "platform-update", "system-health", "recurring", "dashboard",
+        "cloud-dashboard"
+      ],
+      "category": "ai-platform"
+    },
+    {
+      "name": "brand-intelligence",
+      "source": "./plugins/brand-intelligence",
+      "description": "A complete brand identity and analysis system for small business owners and entrepreneurs. Set up your brand kit once — colors, fonts, logo, and voice — and get a professional brand board PDF. Run quarterly brand audits to measure your online presence, identify positioning gaps, and get a data-backed 30-day improvement plan. Brand data saved to your Cloud Brain automatically applies to all document and content skills.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "brand", "branding", "brand-kit", "brand-audit", "online-presence",
+        "social-media", "content-strategy", "positioning", "marketing",
+        "identity", "logo", "brand-board", "bio", "tagline",
+        "content-pillars"
+      ],
+      "category": "marketing"
+    },
+    {
+      "name": "social-media-suite",
+      "source": "./plugins/social-media-suite",
+      "description": "A complete AI-powered social media management system for solo entrepreneurs and small teams. Covers the full workflow from strategy and brand setup through weekly content creation, graphic design (Canva), scheduling (Metricool), analytics, trend research, and competitor monitoring. Designed to start supervised and progressively earn full autonomy as the client builds trust in their agent.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "social media", "content creation", "social media management",
+        "Instagram", "TikTok", "LinkedIn", "Facebook", "YouTube",
+        "content calendar", "scheduling", "Metricool", "Canva",
+        "content strategy", "brand voice", "social media marketing",
+        "entrepreneur", "small business", "analytics",
+        "competitor monitoring", "content repurposing"
+      ],
+      "category": "marketing"
+    },
+    {
+      "name": "communications-suite",
+      "source": "./plugins/communications-suite",
+      "description": "A complete AI communications toolkit for busy professionals. Triage and organize overflowing inboxes, draft professional emails in your voice, walk into every meeting prepared, extract action items from transcripts, build negotiation strategies on demand, and automatically sync your PLAUD voice recordings to your Cloud Brain. Designed to run as an Executive Inbox Agent on a daily schedule — so your communications are handled before you even open your laptop.",
+      "version": "1.1.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "email", "inbox", "communications", "meeting", "triage", "drafting",
+        "negotiation", "executive assistant", "inbox zero", "imessage",
+        "plaud", "voice notes", "voice recording", "productivity"
+      ],
+      "category": "communications"
+    },
+    {
+      "name": "zoom-suite",
+      "source": "./plugins/zoom-suite",
+      "description": "Live Zoom meeting intelligence — pulls data directly from your Zoom account to debrief meetings, prep for calls with full history context, search across recordings and chat, and deliver a weekly digest of everything that happened. No transcript pasting. Everything is live from Zoom. Includes guided onboarding that verifies your Zoom setup and proves the plugin works before you rely on it. Requires Zoom MCP connector.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "zoom", "meetings", "meeting-debrief", "meeting-prep", "recordings",
+        "transcripts", "action-items", "weekly-digest", "team-chat",
+        "knowledge-search", "communications", "productivity"
+      ],
+      "category": "communications"
+    },
+    {
+      "name": "research-intelligence",
+      "source": "./plugins/research-intelligence",
+      "description": "A suite of AI-powered research skills for business intelligence. Run competitor analyses, market sizing reports, strategic SWOT assessments, deep-dive topic research, and individual person profiles — all sourced from live web data, saved to your cloud brain, and personalized to your business over time. Designed for entrepreneurs, investors, and business operators who make high-stakes decisions and need fast, reliable intelligence.",
+      "version": "1.0.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "research", "competitor analysis", "market research", "SWOT",
+        "business intelligence", "due diligence", "competitive landscape",
+        "market sizing", "TAM SAM SOM", "strategic analysis",
+        "person research", "deep research"
+      ],
+      "category": "research"
+    },
+    {
+      "name": "penny-plugin",
+      "source": "./plugins/penny-plugin",
+      "description": "Penny is an AI-powered bookkeeper that connects directly to QuickBooks Online. Ask in plain English to pull P&L, balance sheet, and cash flow reports, review transactions, create invoices, track expenses, and look up customers and vendors. Includes guided zero-to-live onboarding that walks through Intuit Developer app creation, production approval, and connection verification. Bundles a QBO MCP server (Python) that ships with the plugin.",
+      "version": "1.1.0",
+      "author": { "name": "MyBusinessGenie" },
+      "keywords": [
+        "quickbooks", "QBO", "bookkeeping", "accounting", "invoices",
+        "expenses", "profit-loss", "balance-sheet", "cash-flow",
+        "transactions", "vendors", "customers", "financial-reports",
+        "intuit", "AI-bookkeeper", "bookkeeper", "accounts-receivable",
+        "accounts-payable", "reconciliation"
+      ],
+      "category": "bookkeeping"
+    }
+  ]
+}
