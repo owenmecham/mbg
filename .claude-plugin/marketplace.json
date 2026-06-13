@@ -1,5 +1,5 @@
 {
-  "name": "mbg",
+  "name": "my-business-genie",
   "owner": {
     "name": "MyBusinessGenie"
   },
@@ -92,19 +92,6 @@
         "ai-agents", "agent-team", "automation", "org-chart",
         "agent-activator", "composio", "scheduled-tasks", "skill-builder",
         "agent-designer", "agent-reporter"
-      ],
-      "category": "ai-platform"
-    },
-    {
-      "name": "mbg-foundation",
-      "source": "./plugins/mbg-foundation",
-      "description": "The starting point for every MBG client. Three guided skills that help you get clear on where you're headed, map your business for AI automation, and design your AI agent team. Run them in order for the best experience — or jump to what you need, when you need it.",
-      "version": "1.0.0",
-      "author": { "name": "MyBusinessGenie" },
-      "keywords": [
-        "foundation", "onboarding", "setup", "getting-started", "goals",
-        "goal-hierarchy", "business-blueprint", "agent-designer", "ai-team",
-        "strategy", "clarity"
       ],
       "category": "ai-platform"
     },
