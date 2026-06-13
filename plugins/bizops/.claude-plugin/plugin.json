@@ -1,91 +1,11 @@
 {
   "name": "bizops",
   "display_name": "BizOps — Business Operations Suite",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A complete business operations toolkit for small business owners. Covers daily briefings, client onboarding, invoicing, pipeline management, hiring, financial snapshots, SOPs, travel planning, and more. Works across all industries.",
-  "author": { "name": "MyBusinessGenie" },
-  "skills": [
-    {
-      "name": "bizops-daily-brief",
-      "description": "CEO-level daily briefing — today's priorities, fires, deadlines, project status, and focus areas.",
-      "triggers": ["daily brief", "morning briefing", "what's on my plate", "start my day"]
-    },
-    {
-      "name": "bizops-client-onboarding",
-      "description": "Onboard new clients — create contact records, project files, welcome materials, onboarding checklists, and intake workflows.",
-      "triggers": ["onboard", "new client", "set up a client", "client intake"]
-    },
-    {
-      "name": "bizops-invoice-generator",
-      "description": "Generate professional invoices and track billing history.",
-      "triggers": ["create an invoice", "invoice", "bill a client", "generate invoice"]
-    },
-    {
-      "name": "bizops-pipeline-sync",
-      "description": "Pipeline intelligence — deal velocity, stale deals, revenue forecast, and pipeline health.",
-      "triggers": ["pipeline", "deal flow", "pipeline report", "CRM sync"]
-    },
-    {
-      "name": "bizops-lead-tracker",
-      "description": "Track leads through pipeline stages — add, update, and manage leads and deals.",
-      "triggers": ["track a lead", "add a lead", "update a deal", "lead tracker"]
-    },
-    {
-      "name": "bizops-follow-up",
-      "description": "Track follow-ups and commitments — add, list, complete, and get reminders for open loops.",
-      "triggers": ["follow up", "add a follow-up", "open loops", "what do I owe"]
-    },
-    {
-      "name": "bizops-financial-snapshot",
-      "description": "Executive financial summary — P&L, revenue by stream, expense breakdown, cash flow projection, and recommendations.",
-      "triggers": ["financial snapshot", "P&L", "cash flow", "financial summary"]
-    },
-    {
-      "name": "bizops-kpi-dashboard",
-      "description": "KPI tracking — define, update, and report on key performance indicators.",
-      "triggers": ["KPI", "metrics", "scorecard", "business performance"]
-    },
-    {
-      "name": "bizops-hiring-screener",
-      "description": "Build hiring packages — job descriptions, screening questions, scorecards, and offer templates.",
-      "triggers": ["hire", "hiring", "job description", "screening questions", "interview"]
-    },
-    {
-      "name": "bizops-sop-builder",
-      "description": "Build SOPs — document processes, create runbooks, playbooks, and workflow documentation.",
-      "triggers": ["SOP", "standard operating procedure", "document this process", "create a procedure"]
-    },
-    {
-      "name": "bizops-people",
-      "description": "Contact management — create, update, search, and query people in the brain.",
-      "triggers": ["who is", "add to contacts", "look up", "create a contact"]
-    },
-    {
-      "name": "bizops-weekly-review",
-      "description": "Weekly review — recap what got done, assess goal progress, and plan next week.",
-      "triggers": ["weekly review", "week in review", "plan next week", "accountability check"]
-    },
-    {
-      "name": "bizops-travel-plan",
-      "description": "Plan trips — flights, hotels, itinerary, ground transportation, restaurants, packing, and pre-trip timeline.",
-      "triggers": ["plan my trip", "traveling to", "trip itinerary", "packing list", "hotel recommendations"]
-    },
-    {
-      "name": "bizops-budget-builder",
-      "description": "Build and track a business budget — create budgets, log actuals, analyze variances, and flag overspend.",
-      "triggers": ["build a budget", "budget vs actuals", "variance report", "am I over budget", "track my spending", "budget report"]
-    },
-    {
-      "name": "bizops-vendor-tracker",
-      "description": "Track vendors and suppliers — contracts, renewal dates, costs, and spend audits.",
-      "triggers": ["add a vendor", "vendor renewals", "what vendors do I have", "vendor spend", "vendor audit", "upcoming renewals"]
-    },
-    {
-      "name": "bizops-project-tracker",
-      "description": "Track multi-milestone internal projects — create projects, update milestones, flag blockers, and view project dashboard.",
-      "triggers": ["create a project", "project status", "project dashboard", "what projects are we working on", "update a milestone", "project report"]
-    }
-  ],
+  "author": {
+    "name": "MyBusinessGenie"
+  },
   "memory_paths": {
     "preferences": "brain/preferences/",
     "projects": "brain/projects/",
@@ -97,6 +17,18 @@
   },
   "requires_memory": true,
   "memory_provider": "cloud-brain",
-  "industries": ["all"],
-  "keywords": ["operations", "productivity", "CRM", "finance", "hiring", "travel", "SOPs", "small business", "business operations"]
+  "industries": [
+    "all"
+  ],
+  "keywords": [
+    "operations",
+    "productivity",
+    "CRM",
+    "finance",
+    "hiring",
+    "travel",
+    "SOPs",
+    "small business",
+    "business operations"
+  ]
 }
