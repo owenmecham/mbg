@@ -1,7 +1,7 @@
 {
   "name": "communications-suite",
   "display_name": "Communications Suite",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A complete AI communications toolkit for busy professionals. Triage and organize overflowing inboxes, draft professional emails in your voice, walk into every meeting prepared, extract action items from transcripts, build negotiation strategies on demand, and automatically sync your PLAUD voice recordings to your Cloud Brain. Designed to run as an Executive Inbox Agent on a daily schedule — so your communications are handled before you even open your laptop.",
   "author": { "name": "MyBusinessGenie" },
   "skills": [
@@ -42,7 +42,7 @@
     },
     {
       "name": "comm-plaud-sync",
-      "description": "Automatically sync PLAUD voice recording summaries into your Cloud Brain — classified by domain, action items extracted, routed to the right place. Runs on a daily or weekly schedule. Requires Playwright MCP and a PLAUD account.",
+      "description": "Automatically sync PLAUD voice recording summaries into your Cloud Brain — classified by domain, action items extracted, routed to the right place. Runs on a daily or weekly schedule. Requires the official Plaud MCP server (https://mcp.plaud.ai/mcp) and a PLAUD account.",
       "triggers": ["plaud sync", "sync plaud", "import plaud", "pull recordings", "process plaud", "sync voice notes", "plaud setup"]
     }
   ],
