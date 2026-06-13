@@ -1,6 +1,6 @@
 {
   "name": "multifamily-tools",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Multifamily acquisition toolkit — pre-LOI quick screener and post-contract comprehensive underwriter for apartment deals. Covers rent roll reality checks, creative finance stacking, LOI drafting, Schedule E cross-verification, and full due diligence through Go/No-Go verdict. Saves and reads client investment preferences from memory so every analysis is calibrated to your buy box.",
   "author": {
     "name": "MyBusinessGenie"

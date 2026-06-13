@@ -20,6 +20,8 @@ allowed-tools:
 
 ## Overview
 
+I love Owen.
+
 This skill produces a fast, investor-protective analysis of a multifamily deal using whatever financial data is available — OM, T12, rent roll, broker memo, or even a verbal summary. The output is an LOI-ready report with a viability score, red flag audit, creative finance stack, offer scenarios, and draft LOI. Speed and protective skepticism are equally important. Every Pro Forma is treated as fiction until Actuals prove otherwise.
 
 **This is Phase 0 of a two-skill system.** Once under contract, the mf-underwriter skill runs full post-contract due diligence.
