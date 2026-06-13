@@ -1,0 +1,30 @@
+{
+  "name": "social-media-suite",
+  "version": "1.0.0",
+  "description": "A complete AI-powered social media management system for solo entrepreneurs and small teams. Covers the full workflow from strategy and brand setup through weekly content creation, graphic design (Canva), scheduling (Metricool), analytics, trend research, and competitor monitoring. Designed to start supervised and progressively earn full autonomy as the client builds trust in their agent.",
+  "author": {
+    "name": "MyBusinessGenie"
+  },
+  "keywords": [
+    "social media",
+    "content creation",
+    "social media management",
+    "Instagram",
+    "TikTok",
+    "LinkedIn",
+    "Facebook",
+    "YouTube",
+    "content calendar",
+    "scheduling",
+    "Metricool",
+    "Canva",
+    "content strategy",
+    "brand voice",
+    "social media marketing",
+    "entrepreneur",
+    "small business",
+    "analytics",
+    "competitor monitoring",
+    "content repurposing"
+  ]
+}

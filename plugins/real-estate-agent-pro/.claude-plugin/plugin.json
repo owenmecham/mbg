@@ -1,0 +1,9 @@
+{
+  "name": "real-estate-agent-pro",
+  "version": "1.2.0",
+  "description": "Complete AI toolkit for real estate agents — listing launch, CMA, transaction coordination, buyer consultation, showing management, disclosure compliance, creative finance analysis, referral tracking, 1031 exchange tracking, market reports, past client nurture, closing gift and review requests, GCI production planning, objection roleplay coaching, and more. Every skill saves preferences to memory so your name, brokerage, and market settings are always pre-loaded.",
+  "author": {
+    "name": "MyBusinessGenie"
+  },
+  "keywords": ["real-estate", "agent", "listing", "buyer", "transaction", "cma", "disclosure", "creative-finance", "referral", "1031-exchange", "open-house", "showing", "market-report", "past-client", "closing-gift", "gci", "production-planner", "objection-coach"]
+}

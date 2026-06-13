@@ -1,0 +1,59 @@
+{
+  "name": "communications-suite",
+  "display_name": "Communications Suite",
+  "version": "1.1.0",
+  "description": "A complete AI communications toolkit for busy professionals. Triage and organize overflowing inboxes, draft professional emails in your voice, walk into every meeting prepared, extract action items from transcripts, build negotiation strategies on demand, and automatically sync your PLAUD voice recordings to your Cloud Brain. Designed to run as an Executive Inbox Agent on a daily schedule — so your communications are handled before you even open your laptop.",
+  "author": { "name": "MyBusinessGenie" },
+  "skills": [
+    {
+      "name": "comm-inbox-triage",
+      "description": "Triage a batch of emails into four urgency tiers, draft responses for critical items, and surface action items. The flagship skill for the Executive Inbox Agent.",
+      "triggers": ["triage my inbox", "process my email", "inbox zero", "what needs a response", "prioritize my email", "email triage", "clear my inbox", "what's urgent in my email"]
+    },
+    {
+      "name": "comm-email-drafter",
+      "description": "Draft professional emails for any situation — cold outreach, follow-ups, proposals, introductions, thank-yous, negotiation, and investor emails — written in your voice.",
+      "triggers": ["draft an email", "write an email", "email to", "cold outreach email", "follow-up email", "proposal email", "introduction email", "write this email for me"]
+    },
+    {
+      "name": "comm-meeting-prep",
+      "description": "Pre-meeting intelligence brief with attendee research, agenda, talking points, objection handling, and a follow-up template.",
+      "triggers": ["prep for my meeting", "meeting prep", "meeting with", "research this person", "talking points for", "agenda for my meeting", "prepare for my call"]
+    },
+    {
+      "name": "comm-meeting-transcript",
+      "description": "Process meeting recordings or transcripts — extract decisions, action items, follow-ups, and key insights. Your AI meeting analyst.",
+      "triggers": ["process this transcript", "meeting transcript", "extract actions from this meeting", "what did we decide", "summarize this recording", "meeting summary", "debrief this call"]
+    },
+    {
+      "name": "comm-meeting-actions",
+      "description": "Paste meeting notes or a transcript and get structured action items, decisions made, follow-ups, and owner assignments extracted automatically.",
+      "triggers": ["extract action items", "action items from this meeting", "who owns what", "decisions from this meeting", "parse these meeting notes", "get actions from transcript"]
+    },
+    {
+      "name": "comm-negotiation-prep",
+      "description": "Full negotiation strategy — BATNA analysis, leverage identification, counterparty research, objection scripts, and a structured conversation flow.",
+      "triggers": ["negotiation prep", "prepare for negotiation", "negotiation strategy", "how should I negotiate", "BATNA", "prep for this deal", "contract negotiation", "salary negotiation"]
+    },
+    {
+      "name": "comm-imessage",
+      "description": "Send iMessages from your AI — text individuals or groups via BlueBubbles integration. Requires BlueBubbles MCP connector.",
+      "triggers": ["send a text", "iMessage", "text someone", "send an iMessage", "text the group", "message via iMessage"]
+    },
+    {
+      "name": "comm-plaud-sync",
+      "description": "Automatically sync PLAUD voice recording summaries into your Cloud Brain — classified by domain, action items extracted, routed to the right place. Runs on a daily or weekly schedule. Requires Playwright MCP and a PLAUD account.",
+      "triggers": ["plaud sync", "sync plaud", "import plaud", "pull recordings", "process plaud", "sync voice notes", "plaud setup"]
+    }
+  ],
+  "requires_memory": true,
+  "memory_provider": "cloud-brain",
+  "memory_paths": {
+    "preferences": "brain/preferences/comm-preferences.md",
+    "triage_logs": "brain/communications/triage/",
+    "drafts": "brain/communications/drafts/",
+    "meeting_notes": "brain/communications/meetings/"
+  },
+  "industries": ["all"],
+  "keywords": ["email", "inbox", "communications", "meeting", "triage", "drafting", "negotiation", "executive assistant", "inbox zero", "imessage", "plaud", "voice notes", "voice recording", "productivity"]
+}

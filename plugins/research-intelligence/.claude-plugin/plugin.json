@@ -1,0 +1,20 @@
+{
+  "name": "research-intelligence",
+  "version": "1.0.0",
+  "description": "A suite of four AI-powered research skills for business intelligence. Run competitor analyses, market sizing reports, strategic SWOT assessments, deep-dive topic research, and individual person profiles — all sourced from live web data, saved to your cloud brain, and personalized to your business over time. Designed for entrepreneurs, investors, and business operators who make high-stakes decisions and need fast, reliable intelligence.",
+  "author": { "name": "MyBusinessGenie" },
+  "keywords": [
+    "research",
+    "competitor analysis",
+    "market research",
+    "SWOT",
+    "business intelligence",
+    "due diligence",
+    "competitive landscape",
+    "market sizing",
+    "TAM SAM SOM",
+    "strategic analysis",
+    "person research",
+    "deep research"
+  ]
+}

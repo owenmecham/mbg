@@ -1,0 +1,9 @@
+{
+  "name": "ai-agents",
+  "version": "1.0.0",
+  "description": "Build, activate, and manage a complete AI agent team for your business. Design your org chart, activate agents one at a time with the right tools and schedules, set up automated reporting, and build custom skills when off-the-shelf options don't fit. Includes guided tool selection — recommends MBG plugins, native connectors, and Composio so every agent can work autonomously without you needing to be present.",
+  "author": {
+    "name": "MyBusinessGenie"
+  },
+  "keywords": ["ai-agents", "agent-team", "automation", "org-chart", "agent-activator", "composio", "scheduled-tasks", "skill-builder", "agent-designer", "agent-reporter"]
+}

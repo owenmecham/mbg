@@ -1,0 +1,30 @@
+{
+  "name": "penny-plugin",
+  "display_name": "Penny — AI Bookkeeper for QuickBooks Online",
+  "version": "1.1.0",
+  "description": "Penny is an AI-powered bookkeeper that connects directly to QuickBooks Online. Ask in plain English to pull reports, review transactions, create invoices, track expenses, and more. Includes guided onboarding from zero to live connection.",
+  "author": "MyBusinessGenie",
+  "mcp_server": {
+    "name": "penny-qbo",
+    "command": "python3",
+    "args_template": ["{plugin_dir}/mcp-server/server.py"],
+    "setup_script": "setup.sh",
+    "config_script": "add-to-mcp-config.sh"
+  },
+  "skills": [
+    {
+      "name": "penny-onboarding",
+      "file": "penny-onboarding.skill",
+      "description": "Full zero-to-live setup — creates Intuit developer app, guides through approval, connects to Cowork, and verifies live QBO data. Start here if you're brand new."
+    },
+    {
+      "name": "setup-penny",
+      "file": "setup-penny.skill",
+      "description": "Quick reconnect and troubleshooting for clients who already have Intuit credentials."
+    }
+  ],
+  "requirements": {
+    "python": ">=3.8",
+    "packages": ["mcp", "httpx"]
+  }
+}

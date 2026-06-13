@@ -1,0 +1,9 @@
+{
+  "name": "zoom-suite",
+  "version": "1.0.0",
+  "description": "Live Zoom meeting intelligence — pulls data directly from your Zoom account to debrief meetings, prep for calls with full history context, search across recordings and chat, and deliver a weekly digest of everything that happened. No transcript pasting. Everything is live from Zoom. Includes guided onboarding that verifies your Zoom setup and proves the plugin works before you rely on it. Requires Zoom MCP connector.",
+  "author": {
+    "name": "MyBusinessGenie"
+  },
+  "keywords": ["zoom", "meetings", "meeting-debrief", "meeting-prep", "recordings", "transcripts", "action-items", "weekly-digest", "team-chat", "knowledge-search", "communications", "productivity"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "rv-park-tools",
+  "version": "1.0.1",
+  "description": "RV park acquisition toolkit — pre-LOI quick screener and post-contract comprehensive underwriter. Covers deal analysis, creative finance stacking, LOI drafting, and full due diligence through Go/No-Go verdict. Saves and reads client investment preferences from memory so every analysis is calibrated to your buy box.",
+  "author": {
+    "name": "MyBusinessGenie"
+  },
+  "keywords": ["rv-park", "campground", "outdoor-hospitality", "real-estate", "underwriting", "deal-analysis", "creative-finance", "due-diligence"]
+}
